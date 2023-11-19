@@ -1,0 +1,40 @@
+.list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
+}
+
+.listItem {
+    list-style: none;
+    padding: 16px;
+    border: 1px solid rgba(0,0,0,0.1);
+}
+
+.listName b, .listLanguage b{
+    margin-right: 8px;
+}
+
+.listLink {
+    display: block;
+    background-color: rgb(53,3,68);
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 8px;
+    padding: 8px;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+    border-radius: 5px;
+}
+
+a:hover {
+    transform: scale(1.0);
+    background-color: #fff;
+    color: rgb(53,3,68);
+    border-radius: 5px;
+    border: 3px solid rgb(53,3,68);
+}
+
+a:active {
+    transform: scale(0.1);
+}
